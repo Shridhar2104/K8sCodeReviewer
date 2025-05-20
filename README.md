@@ -18,8 +18,6 @@ A Kubernetes operator that automates code reviews using Large Language Models. T
 
 ## 🛠️ Architecture
 
-![Architecture Diagram](docs/images/architecture.png)
-
 The operator consists of:
 
 1. **Controller**: Manages the lifecycle of code review requests
