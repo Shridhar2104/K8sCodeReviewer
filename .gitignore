@@ -1,0 +1,85 @@
+# Go specific
+/bin/
+/vendor/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environment
+./llm-service/venv/
+ENV/
+.env
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Kubernetes generated files
+/config/crd/bases/
+/config/rbac/role.yaml
+/config/manifests/
+/config/webhook/
+kubeconfig
+
+# Operator specific
+/testbin/
+bundle/
+bundle.Dockerfile
+
+# Docker
+.docker/
+
+# Build output
+/_output/
+/_build/
+
+# Temporary files
+*.tmp
+*.log
+tmp/
+temp/
+
+# Secret files
+*.pem
+*.key
+*.crt
+*.secret
+secrets/
+
+# Misc
+.cache/
+logs/
